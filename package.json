@@ -1,18 +1,26 @@
 {
   "name": "price-is-right",
   "version": "1.0.0",
-  "description": "",
+  "description": "In the initial commit to this project, you have been provided with files that contain a JavaScript module and some associated tests. Currently the `selectSaleItems` function is not implemented causing the tests to fail. Use what we have learned about filtering to write a solution to the problem of selecting sale items.",
   "main": "index.js",
   "scripts": {
-    "lint": "./node_modules/.bin/eslint --format codeframe .",
-    "test": "./node_modules/.bin/mocha tests.js"
+    "lint": "eslint --format codeframe .",
+    "test": "mocha tests.js"
   },
-  "author": "",
+  "author": "Tatiana O",
   "license": "ISC",
   "dependencies": {},
   "devDependencies": {
     "chai": "^4.2.0",
     "eslint": "^6.3.0",
     "mocha": "^6.2.0"
-  }
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ASongAXWires/setting-sale.git"
+  },
+  "bugs": {
+    "url": "https://github.com/ASongAXWires/setting-sale/issues"
+  },
+  "homepage": "https://github.com/ASongAXWires/setting-sale#readme"
 }
